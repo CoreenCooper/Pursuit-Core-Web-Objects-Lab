@@ -22,7 +22,7 @@ const eveAppleCount = appleCountByName => appleCountByName.Eve;
  * bracket notation? Try them both.
  */
 
-const appleCount = () => {};
+const appleCount = (appleCountByName, name) => appleCountByName[name]
 
 /**
  * Takes in an object with peoples names as the keys and
