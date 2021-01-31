@@ -94,7 +94,9 @@ const appleSum = appleCountByName => {
  *
  */
 
-const appleSetToZero = () => {};
+const appleSetToZero = appleCountByName => {
+ 
+}
 
 /**
  * Takes in an object of countries and their capitals.
@@ -104,7 +106,7 @@ const appleSetToZero = () => {};
  * @returns {string} Capital of Russia
  */
 
-const russiaCapital = () => {};
+const russiaCapital = capitalByCountry => capitalByCountry["Russia"]
 
 /**
  * Takes in an object of countries and their capitals.
