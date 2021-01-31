@@ -67,7 +67,7 @@ const appleSet = (appleCountByName, name, newAppleCount) => {
  *
  */
 
-const adamAndEveApples = () => {};
+const adamAndEveApples = appleCountByName => appleCountByName.Adam + appleCountByName.Eve
 
 /**
  * Takes in an object with peoples names as the keys and
@@ -78,7 +78,12 @@ const adamAndEveApples = () => {};
  *
  */
 
-const appleSum = () => {};
+const appleSum = appleCountByName => {
+  let objArr = Object.values(appleCountByName)
+  return objArr.reduce((acc, el) => {
+    return acc + el
+  })
+};
 
 /**
  * Takes in an object with peoples names as the keys and
