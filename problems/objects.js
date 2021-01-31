@@ -118,8 +118,7 @@ const russiaCapital = capitalByCountry => capitalByCountry["Russia"]
  * @returns {string} Capital of country
  */
 
-const getCapital = () => {};
-
+const getCapital = (capitalByCountry, country) => capitalByCountry[country]
 /**
  * Takes in an object of countries and their capitals
  * and adds the key value pair "Jamaica" and "Kingston"
